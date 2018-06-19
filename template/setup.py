@@ -27,7 +27,7 @@ def setup_package():
     metadata_path = path.join(root, "metadata.json")
     with io.open(metadata_path, encoding="utf8") as f:
         metadata = json.load(f)
-    resources_name = metadata["name"]
+    resources_name = str(metadata["name"])
     version = metadata["version"]
     resources_dir = path.join(resources_name, resources_name + "-" + version)
 
