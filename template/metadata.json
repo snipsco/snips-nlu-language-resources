@@ -1,0 +1,11 @@
+{
+  "name": "snips-nlu-en",
+  "language": "en",
+  "version": "0.0.0",
+  "description": "Language resources for English",
+  "snips-nlu-version": ">=0.1.0,<1.0.0",
+  "author": "Adrien Ball, Clément Doumouro",
+  "email": "adrien.ball@snips.ai, clement.doumouro@snips.ai",
+  "url": "https://snips-nlu.readthedocs.io",
+  "license": "Apache License, Version 2.0"
+}
