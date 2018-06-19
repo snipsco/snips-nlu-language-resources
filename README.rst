@@ -20,5 +20,15 @@ Or simply:
     
     snips-nlu download [language]
 
+Once language resources have been downloaded, they can be loaded in Python using:
+
+.. code-block:: python
+
+	import snips_nlu
+
+	snips_nlu.load_resources("en")
+
+
+
 .. _Snips NLU: https://github.com/snipsco/snips-nlu
 .. _spacy: https://github.com/explosion/spaCy-models
