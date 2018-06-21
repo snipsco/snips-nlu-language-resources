@@ -12,7 +12,7 @@ Install the `Snips NLU`_ library with ``pip install snips-nlu`` and then run one
 
 .. code-block:: sh
 
-    python -m snips-nlu download [language]
+    python -m snips_nlu download [language]
 
 Or simply:
 
