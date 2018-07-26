@@ -5,5 +5,14 @@
 	"de": "snips_nlu_de",
 	"ja": "snips_nlu_ja",
 	"ko": "snips_nlu_ko",
-	"zh": "snips_nlu_zh"
+	"zh": "snips_nlu_zh",
+	"musicalbum": "snips_nlu_musicalbum",
+	"musicartist": "snips_nlu_musicartist",
+	"musictrack": "snips_nlu_musictrack",
+	"snips/musicalbum": "snips_nlu_musicalbum",
+	"snips/musicartist": "snips_nlu_musicartist",
+	"snips/musictrack": "snips_nlu_musictrack",
+	"musicalbum_fr": "snips_nlu_musicalbum_fr",
+	"musicartist_fr": "snips_nlu_musicartist_fr",
+	"musictrack_fr": "snips_nlu_musictrack_fr"
 }
