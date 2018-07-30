@@ -36,12 +36,12 @@ def setup_package():
 
     setup(
         name=resources_name,
-        description=metadata["description"],
-        author=metadata["author"],
-        author_email=metadata["email"],
-        url=metadata["url"],
         version=metadata["version"],
-        license=metadata["license"],
+        description=metadata.get("description"),
+        author=metadata.get("author"),
+        author_email=metadata.get("email"),
+        url=metadata.get("url"),
+        license=metadata.get("license"),
         packages=[resources_name],
         package_data={resources_name: list_files(resources_dir)},
         zip_safe=False,
