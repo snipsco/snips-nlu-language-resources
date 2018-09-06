@@ -1,5 +1,14 @@
 {
   "snips-nlu": {
+    "0.16.5": {
+      "snips_nlu_de": ["0.2.0"],
+      "snips_nlu_en": ["0.2.0"],
+      "snips_nlu_es": ["0.2.0"],
+      "snips_nlu_fr": ["0.2.0"],
+      "snips_nlu_ja": ["0.2.1", "0.2.0", "0.1.0"],
+      "snips_nlu_ko": ["0.2.0", "0.1.0"],
+      "snips_nlu_zh": ["0.2.0", "0.1.0"]
+    },
     "0.16.4": {
       "snips_nlu_de": ["0.2.0"],
       "snips_nlu_en": ["0.2.0"],
