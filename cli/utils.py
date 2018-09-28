@@ -23,7 +23,7 @@ def get_entity_short_name(entity_name):
 
 
 def get_supported_entities(language):
-    if language != "fr":
+    if language not in {"fr", "en"}:
         return set()
     return {
         "snips/musicAlbum",
