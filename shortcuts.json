@@ -3,7 +3,11 @@
 	"en": "snips_nlu_en",
 	"es": "snips_nlu_es",
 	"de": "snips_nlu_de",
+	"it": "snips_nlu_it",
 	"ja": "snips_nlu_ja",
 	"ko": "snips_nlu_ko",
-	"zh": "snips_nlu_zh"
+	"zh": "snips_nlu_zh",
+	"snips/musicalbum": "snips_nlu_musicalbum",
+	"snips/musicartist": "snips_nlu_musicartist",
+	"snips/musictrack": "snips_nlu_musictrack"
 }
