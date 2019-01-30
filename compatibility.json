@@ -1,5 +1,21 @@
 {
   "snips-nlu": {
+    "0.19.0": {
+      "snips_nlu_de": ["0.2.1", "0.2.0"],
+      "snips_nlu_en": ["0.2.1", "0.2.0"],
+      "snips_nlu_es": ["0.2.1", "0.2.0"],
+      "snips_nlu_fr": ["0.2.2", "0.2.1", "0.2.0"],
+      "snips_nlu_it": ["0.1.1", "0.1.0"],
+      "snips_nlu_ja": ["0.2.1", "0.2.0", "0.1.0"],
+      "snips_nlu_ko": ["0.2.0", "0.1.0"],
+      "snips_nlu_zh": ["0.2.0", "0.1.0"],
+      "snips_nlu_musicalbum_fr": ["0.2"],
+      "snips_nlu_musicartist_fr": ["0.2"],
+      "snips_nlu_musictrack_fr": ["0.2"],
+      "snips_nlu_musicalbum_en": ["0.2"],
+      "snips_nlu_musicartist_en": ["0.2"],
+      "snips_nlu_musictrack_en": ["0.2"]
+    },
     "0.18.0": {
       "snips_nlu_de": ["0.2.1", "0.2.0"],
       "snips_nlu_en": ["0.2.1", "0.2.0"],

@@ -1,0 +1,3 @@
+script:
+  - cat compatibility.json | jq -e . >/dev/null
+  - cat shortcuts.json | jq -e . >/dev/null
