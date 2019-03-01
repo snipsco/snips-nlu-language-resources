@@ -6,6 +6,8 @@
 	"it": "snips_nlu_it",
 	"ja": "snips_nlu_ja",
 	"ko": "snips_nlu_ko",
+	"pt_br": "snips_nlu_pt_br",
+	"pt_pt": "snips_nlu_pt_pt",
 	"zh": "snips_nlu_zh",
 	"snips/musicalbum": "snips_nlu_musicalbum",
 	"snips/musicartist": "snips_nlu_musicartist",
