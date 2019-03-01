@@ -57,6 +57,8 @@
       "snips_nlu_ja": ["0.2.1", "0.2.0", "0.1.0"],
       "snips_nlu_ko": ["0.2.0", "0.1.0"],
       "snips_nlu_zh": ["0.2.0", "0.1.0"],
+      "snips_nlu_pt_br": ["0.1.0"],
+      "snips_nlu_pt_pt": ["0.1.0"],
       "snips_nlu_musicalbum_fr": ["0.2"],
       "snips_nlu_musicartist_fr": ["0.2"],
       "snips_nlu_musictrack_fr": ["0.2"],
