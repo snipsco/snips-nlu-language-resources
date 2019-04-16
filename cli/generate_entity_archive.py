@@ -9,7 +9,7 @@ from builtins import bytes
 
 import plac
 from utils import (
-    TEMPLATE_PATH, get_entity_short_name, get_supported_entities, temp_dir)
+    TEMPLATE_PATH, get_entity_short_name, temp_dir)
 
 
 @plac.annotations(
@@ -27,11 +27,9 @@ from utils import (
 def generate_entity_archive(
         entity_name, language, version, description, snips_nlu_version,
         license, gazetteer_path, output_filename):
-    supported_entities = get_supported_entities(language)
-    if entity_name not in supported_entities:
-        raise ValueError("Gazetteer entity '%s' not supported, available "
-                         "entities: %s"
-                         % (entity_name, ', '.join(supported_entities)))
+    if not entity_name.startswith('snips/'):
+        raise ValueError(
+            "Gazetteer entity '{e}' isn't valid. Entity names must start with 'snips/'".format(e=entity_name))
     if description is None:
         description = "Resources for the '{e}' gazetteer entity in language " \
                       "'{l}'".format(e=entity_name, l=language)

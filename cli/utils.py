@@ -20,13 +20,3 @@ def temp_dir():
 def get_entity_short_name(entity_name):
     # snips/musicArtist -> musicartist
     return entity_name[6:].lower()
-
-
-def get_supported_entities(language):
-    if language not in {"fr", "en"}:
-        return set()
-    return {
-        "snips/musicAlbum",
-        "snips/musicArtist",
-        "snips/musicTrack"
-    }
