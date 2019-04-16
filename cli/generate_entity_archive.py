@@ -18,8 +18,8 @@ from utils import (
     version=("Version of the resource", "positional", None, str),
     description=("Description of the resource", "option", "d", str),
     snips_nlu_version=(
-            "Compatible versions of snips-nlu e.g. '>=0.1.0,<1.0.0'", "option",
-            "v", str),
+        "Compatible versions of snips-nlu e.g. '>=0.1.0,<1.0.0'", "option",
+        "v", str),
     license=("License of the gazetteer entity data", "option", "l", str),
     gazetteer_path=("Path of the gazetteer entity directory", "positional",
                     None, str),
