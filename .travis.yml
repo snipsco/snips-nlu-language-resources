@@ -1,3 +1,17 @@
+os: linux
+language: python
+
+install: 
+  - git clone https://github.com/snipsco/snips-nlu.git
+  - cd snips-nlu
+  - python -m pip install -e .
+  - sed -i.bak "s|snips-nlu-language-resources/master|snips-nlu-language-resources/$TRAVIS_PULL_REQUEST_BRANCH|g" snips_nlu/__about__.py
+  - cat snips_nlu/__about__.py
+  - cd ..
+
 script:
-  - cat compatibility.json | jq -e . >/dev/null
-  - cat shortcuts.json | jq -e . >/dev/null
+  - (cat compatibility.json && true) | jq -e . >/dev/null
+  - (cat shortcuts.json && true) | jq -e . >/dev/null
+  - python -m snips_nlu download-all-languages
+  - python -m snips_nlu download-language-entities en
+  - python -m snips_nlu download-language-entities fr
