@@ -13,5 +13,10 @@ script:
   - (cat compatibility.json && true) | jq -e . >/dev/null
   - (cat shortcuts.json && true) | jq -e . >/dev/null
   - python -m snips_nlu download-all-languages
+  - python -m snips_nlu download-language-entities de
   - python -m snips_nlu download-language-entities en
+  - python -m snips_nlu download-language-entities es
   - python -m snips_nlu download-language-entities fr
+  - python -m snips_nlu download-language-entities it
+  - python -m snips_nlu download-language-entities ja
+  - python -m snips_nlu download-language-entities pt_br

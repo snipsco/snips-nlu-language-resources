@@ -11,5 +11,8 @@
 	"zh": "snips_nlu_zh",
 	"snips/musicalbum": "snips_nlu_musicalbum",
 	"snips/musicartist": "snips_nlu_musicartist",
-	"snips/musictrack": "snips_nlu_musictrack"
+	"snips/musictrack": "snips_nlu_musictrack",
+	"snips/city": "snips_nlu_city",
+	"snips/country": "snips_nlu_country",
+	"snips/region": "snips_nlu_region"
 }
