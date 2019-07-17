@@ -20,3 +20,4 @@ script:
   - python -m snips_nlu download-language-entities it
   - python -m snips_nlu download-language-entities ja
   - python -m snips_nlu download-language-entities pt_br
+  - python -m snips_nlu download-language-entities pt_pt

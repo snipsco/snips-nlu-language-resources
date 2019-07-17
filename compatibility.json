@@ -32,6 +32,9 @@
       "snips_nlu_musicalbum_pt_br": ["0.2"],
       "snips_nlu_musicartist_pt_br": ["0.2"],
       "snips_nlu_musictrack_pt_br": ["0.2"],
+      "snips_nlu_musicalbum_pt_pt": ["0.2"],
+      "snips_nlu_musicartist_pt_pt": ["0.2"],
+      "snips_nlu_musictrack_pt_pt": ["0.2"],
       "snips_nlu_city_de": ["0.2"],
       "snips_nlu_country_de": ["0.2"],
       "snips_nlu_region_de": ["0.2"],
@@ -52,7 +55,10 @@
       "snips_nlu_region_ja": ["0.2"],
       "snips_nlu_city_pt_br": ["0.2"],
       "snips_nlu_country_pt_br": ["0.2"],
-      "snips_nlu_region_pt_br": ["0.2"]
+      "snips_nlu_region_pt_br": ["0.2"],
+      "snips_nlu_city_pt_pt": ["0.2"],
+      "snips_nlu_country_pt_pt": ["0.2"],
+      "snips_nlu_region_pt_pt": ["0.2"]
     },
     "0.19.2": {
       "snips_nlu_de": ["0.2.2", "0.2.1", "0.2.0"],
